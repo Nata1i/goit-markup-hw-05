@@ -135,6 +135,10 @@ h1, h2, h3, h4, h5, h6, p {
   color: inherit;
 }
 
+.header-link.current {
+  color: var(--accent-color); 
+}
+
 .header-link.current::after {
   transform: translateY(1px);
   position: absolute;
